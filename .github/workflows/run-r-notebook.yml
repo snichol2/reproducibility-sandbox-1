@@ -23,8 +23,6 @@ jobs:
         with:
           # How deep should it fetch?
           fetch-depth: 0
-          # Need to provide permissions for it to do so
-          token: ${{ secrets.GH_PAT }}
 
       # Run R analysis
       - name: Run R analysis example
